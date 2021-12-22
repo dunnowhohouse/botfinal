@@ -1,0 +1,126 @@
+{
+    "language": "vi",
+    "keyActive": "",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "autoClean": false,
+    "commandDisabled": [
+        "joinnoti.js",
+        "leave.js",
+        "fbget2.js",
+        "AI-OUT.js",
+        "tds.js",
+        "tieusu.js"
+    ],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "TÊN BOT",
+    "PREFIX": ".",
+    "ADMINBOT": [
+        "100005463556532"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "haythachoem.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36"
+    },
+    "version": "1.2.14",
+    "checktt": {
+        "maxColumn": 10
+    },
+    "help": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "log": {
+        "enable": true
+    },
+    "cardinfo": {
+        "APIKEY": "LEANHTRUONG=5hL3CMGFZFBGyoGg6KJPOdbOMH2QvwJaJhAEE4OfuJnIexBMAV=APIKEY=PLANFREE"
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "diemdanh": {
+        "cooldownTime": 3000000
+    },
+    "hitbutt": {
+        "APIKEY": "Meew_NtJeygtJQpUohcE5heW9nZAS195Eqc"
+    },
+    "menu": {
+        "autoUnsend": true,
+        "delayUnsend": 30
+    },
+    "rank": {
+        "APIKEY": "571752207151901|AC-zG86sv6U6kpnT0_snIHBOHJc"
+    },
+    "rankup": {
+        "autoUnsend": "true",
+        "unsendMessageAfter": 10
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyBGQnae8h7dDeQVNDoEJlrwGhLEV-p1m48",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "surprise": {
+        "log": true,
+        "out": "",
+        "kickAll": "",
+        "delThread": ""
+    },
+    "tiktok": {
+        "APIKEY": "Meew_fBWuCTnKgMatL7jjAQdJXzsgPbngOv"
+    },
+    "video": {
+        "YOUTUBE_API": "AIzaSyBGQnae8h7dDeQVNDoEJlrwGhLEV-p1m48"
+    },
+    "weather": {
+        "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "videovideo": {
+        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+    },
+    "youtube": {
+        "TENOR": "73YIAOY3ACT1"
+    },
+    "tikvideo": {
+        "APIKEY": "a012e05802msh4ce48bff26d5c0ap151d85jsn4edde7f89de0"
+    },
+    "covid": {
+        "APIKEY": "Meew_P48yvIJngAMGKSp1ZFujXHblZibBEM"
+    },
+    "linkword": {
+        "APIKEY": ""
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "menuv2": {
+        "autoUnsend": true,
+        "delayUnsend": 100000
+    },
+    "sortword": {
+        "APIKEY": "Meew_fBWuCTnKgMatL7jjAQdJXzsgPbngOv"
+    }
+}

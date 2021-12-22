@@ -1,0 +1,38 @@
+const fs = global.nodemodule["fs-extra"];
+module.exports.config = {
+  name: "goibot",
+  version: "1.0.2",
+  hasPermssion: 0,
+  credits: "Nhiều Người - BằngVIP",
+  description: "AI.js",
+  commandCategory: "Tự động",
+  usages: "noprefix",
+  cooldowns: 5,
+};
+
+module.exports.handleEvent = async function({ api, event, args, Threads, __GLOBAL }) {
+  var { threadID, messageID, reason } = event;
+  const moment = require("moment-timezone");
+  const time = moment.tz("Asia/Ho_Chi_minh").format("HH:MM:ss L");
+  var idgr = `${event.threadID}`;
+  var datathread = (await Threads.getData(event.threadID)).threadInfo;
+
+////////////////////////////////////// BOT //////////////////////////////////////
+  var tl = ["bạn kêu tôi có việc gì?", "Sử dụng callad để liên lạc với admin!", "Em là bot cute nhất hành tinh", "Nói gì thế con lợn", "Em đây ~~", "Sao thế công chúa", "Đừng spam em nha :<< cậu chủ em mệt lắm ời", "Yêu cậu như một cực hình"];
+  var rand = tl[Math.floor(Math.random() * tl.length)]
+  if (event.body.indexOf("bot") == 0 || (event.body.indexOf("Bot") == 0)) {
+    var msg = {
+      body: rand
+    }
+    return api.sendMessage(msg, threadID, messageID);
+  };
+////////////////////////////////////// BOT //////////////////////////////////////
+
+////////////////////////////////////// AI ///////////////////////////////////////
+
+  if ((event.body.toLowerCase() == "Ừ") || (event.body.toLowerCase() == "Ừ")) {
+    return api.sendMessage("Ừ? Biết dạ ko 😑", threadID);
+  };
+
+////////////////////////////////////// AI ///////////////////////////////////////
+};
